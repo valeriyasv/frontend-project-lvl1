@@ -19,7 +19,7 @@ const gameInit = (gameQuestions, userAnswer) => {
         if (resultTask === userAnsw) {
             console.log('Correct!');
         } else {
-            console.log(`'${userAnsw}' is wrong answer ;(. Correct answer was '${(userAnsw === 'yes') ? 'no' : 'yes'}'.Let's try again, ${userName}!`);
+            console.log(`'${userAnsw}' is wrong answer ;(. Correct answer was ${resultTask}. Let's try again, ${userName}!`);
             return;
         }
         i += 1;
